@@ -1,0 +1,39 @@
+const assert = require('assert');
+
+const isVowel = require('./isVowel.test');
+
+const sumar = requiere('./maths');
+
+// TIP: ASSERT de consola
+console.assert(isVowel('b'), 'No es una vocal');
+console.assert(isVowel('a'), 'ES una vocal');
+
+// TIP: metodos Assert NODE
+console.log(assert);
+
+try {
+  assert.ok(isVowel('b'));
+  assert.equal(isVowel('b'), true);
+} catch (error) {
+  console.error(error.message);
+}
+
+try {
+  assert.equal(isVowel('b'), true);
+  //assert.equal(isVowel('b'), true, 'No paso test equal 2');
+} catch (error) {
+  console.error(error.message);
+}
+
+// if (isVowel('e')) {
+//   console.log(`Es Vocal`);
+// } else {
+//   console.log(`No es vocal`);
+// };
+
+// if (isVowel('b')) {
+//   console.log(`Es Vocal`);
+// } else {
+//   console.log(`No es vocal`);
+// };
+console.log(sumar(2, 3));
