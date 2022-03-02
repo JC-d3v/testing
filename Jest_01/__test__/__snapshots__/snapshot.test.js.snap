@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de instantaneas  Instantanea con Excepcion  1`] = `
+Object {
+  "Id": 15,
+  "createAt": 2022-03-02T20:16:09.565Z,
+}
+`;
+
+exports[`Pruebas de instantaneas  Instantanea con excepcion en variaciones date  1`] = `
+Object {
+  "Id": Any<Number>,
+  "name": "Jorge C",
+}
+`;
+
+exports[`Pruebas de instantaneas  Instantanea con variaciones date  1`] = `
+Object {
+  "Id": 10,
+  "createAt": 2022-03-02T20:35:15.122Z,
+}
+`;
+
+exports[`Pruebas de instantaneas  Snapshot 1`] = `
+Object {
+  "gender": "Male",
+  "id": 1,
+  "name": "Rick Sanchez",
+  "species": "Human",
+  "status": "Alive",
+}
+`;
