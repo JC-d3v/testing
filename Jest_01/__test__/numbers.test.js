@@ -2,7 +2,7 @@ import { numbers } from '../numbers';
 
 describe('Comparacion de numeros', () => {
   test('mayor que', () => {
-    expect(numbers(2, 2)).toBeGreaterThan(5);
+    expect(numbers(2, 2)).toBeGreaterThan(3);
   });
 
   test('mayor o igual que', () => {

@@ -2,4 +2,4 @@ const fruits = ['manzana', 'tomate', 'banana', 'pera', 'piña', 'tomate', 'naran
 const colors = ['rojo', 'verde', 'azul', 'amarillo', 'rosado', 'naranja'];
 
 export const arrayFruits = () => fruits;
-export const arrayColors = () => colors; 
+export const arrayColors = () => colors;
