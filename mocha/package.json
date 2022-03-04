@@ -1,0 +1,24 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "Testing with mocha... and others.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch",
+    "test:coverage": "mocha --coverage"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "testing",
+    "node"
+  ],
+  "author": "calderon.rjorge@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^9.2.1"
+  }
+}
