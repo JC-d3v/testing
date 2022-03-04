@@ -4,13 +4,13 @@
   "description": "Pruebas Unitarias Jest",
   "main": "index.js",
   "scripts": {
-    "tstjt": "jest",
-    "tstjt:coverage": "jest --coverage",
-    "tstjt:watch": "jest --watchAll"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [
     "jest",
-    "testint"
+    "testing"
   ],
   "author": "calderon.rjorge@gmail.com",
   "license": "MIT",
